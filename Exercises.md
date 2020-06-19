@@ -39,9 +39,9 @@ No exercises given in Chapter 3.
 
 **Exercise 5-4:** Write a program that converts kilometers per hour to miles per hour.<br/>Miles = (Kilometer * 0.6213712)
 
-**Exercise 5-5:** Write a program that takes hours and minutes as input, and then outputs the total number of minutes. (1 hour 30 minutes = 90 minutes).
+**Exercise 5-5:** Write a program that takes hours and minutes as input, and then outputs the total number of minutes.<br/>(1 hour 30 minutes = 90 minutes).
 
-**Exercise 5-6:** Write a program that takes an integer as the number of minutes, and outputs the total hours and minutes (90 minutes = 1 hour 30 minutes).
+**Exercise 5-6:** Write a program that takes an integer as the number of minutes, and outputs the total hours and minutes.<br/>(90 minutes = 1 hour 30 minutes).
 
 # Chapter 6
 **Exercise 6-1:** Write a program to find the square of the distance between two points. (For a more advanced problem, find the actual distance. This problem involves using the standard function sqrt. Use your help system to find out more about how to use this function.)
@@ -62,7 +62,7 @@ Given a numeric grade, print the letter.
  | Last digit | Modifier |
  |:--: | :---:|
  |1-3 |  - 
- |4-7 |<blank> 
+ |4-7 |\<blank> 
  |8-0 |  + |
   
  For example, 81=B-, 94=A, and 68=D+. Note: An F is only an F. There is no F+ or F-.

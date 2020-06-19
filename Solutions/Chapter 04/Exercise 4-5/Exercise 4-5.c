@@ -43,6 +43,6 @@ int main()
     /* We can also do that in one line without using variables */
     printf("%d should be an character.\n", 'A'); //Again, single quotes for single character
 
-    return (0); //Retunrning 0 means the program ran successfully
+    return (0); //Retunrning 0 means the program ran successfully (but didn't get expected results)
 }
 

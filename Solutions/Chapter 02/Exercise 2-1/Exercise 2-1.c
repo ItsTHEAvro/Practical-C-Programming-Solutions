@@ -7,8 +7,9 @@
 
 #include <stdio.h> //Including header file for standard I/O
 
-int main() {
+int main()
+{
     /* Printing "Hello World" */
     printf("Hello World\n"); // "\n" to move the cursor to the next line
-    return (0);
+    return (0); //Retunrning 0 means the program ran successfully
 }

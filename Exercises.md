@@ -237,8 +237,7 @@ Given a numeric grade, print the letter.
 **Exercise 18-3:** Write a symbol table program consisting of the following functions:
 ```
  void enter(char *name) Enter name into symbol table.
- int lookup(char *name)
- Return 1 if name is in table; return 0 otherwise.
+ int lookup(char *name) Return 1 if name is in table; return 0 otherwise.
  void delete(char *name) Remove name from symbol table.
 ```
 **Exercise 18-4:** Take the words program from Chapter 17, and combine it with the infinite array module to create a cross-reference program. (As an added bonus, teach it about C comments and strings to create a C cross-referencer.)

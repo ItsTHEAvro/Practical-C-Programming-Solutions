@@ -55,6 +55,7 @@ No exercises given in Chapter 3.
 71-80  |  C
 81-90  |  B
 91-100 |  A
+
 Given a numeric grade, print the letter.
 
 **Exercise 6-3:** Modify the previous program to print a + or - after the letter grade, based on the last digit of the score.

@@ -19,7 +19,7 @@ int main()
   printf("Enter Total Minutes: ");
   /* Getting user input as a string */
   fgets(line, sizeof(line), stdin);
-  /* Converting the string to floating-point value */
+  /* Converting the string to integer value */
   sscanf(line, "%d", &total_minutes);
 
   /* Calculating hours */

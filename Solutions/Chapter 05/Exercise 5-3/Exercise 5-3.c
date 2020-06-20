@@ -5,39 +5,36 @@
   GitHub Repo: https://github.com/ItsTHEAvro/Practical-C-Programming-Solutions
 */
 
-#include <stdio.h> //Including header file for standard I/O
+#include <stdio.h> /* For standard input/output operations */
 
 /* Declaring the variables */
-char line[50]; //To get the input from the user
+char line[50]; /* To get the input from the user */
 /* Using float so that both integer and floating point values can be used*/
-float height; //For the height of the rectangle
-float width; //For the width of the rectangle
-float perimeter; //For the perimeter of the rectangle
+float height;    /* For the height of the rectangle */
+float width;     /* For the width of the rectangle */
+float perimeter; /* For the perimeter of the rectangle */
 
 int main()
 {
-    /* Prompting the user for the height*/
-    printf("Enter the Height of the Rectangle in Metre: ");
-    /* Getting user input as a string */
-    fgets(line, sizeof(line), stdin);
-    /* Converting the string to floating-point value and saving it in radius */
-    sscanf(line, "%f", &height);
+  /* Prompting the user for the height*/
+  printf("Enter the Height of the Rectangle in Metre: ");
+  /* Getting user input as a string */
+  fgets(line, sizeof(line), stdin);
+  /* Converting the string to floating-point value and saving it in height */
+  sscanf(line, "%f", &height);
 
-    /* Prompting the user for the width*/
-    printf("Enter the Width of the Rectangle in Metre: ");
-    /* Getting user input as a string */
-    fgets(line, sizeof(line), stdin);
-    /* Converting the string to floating-point value and saving it in radius */
-    sscanf(line, "%f", &width);
+  /* Prompting the user for the width*/
+  printf("Enter the Width of the Rectangle in Metre: ");
+  /* Getting user input as a string */
+  fgets(line, sizeof(line), stdin);
+  /* Converting the string to floating-point value and saving it in width */
+  sscanf(line, "%f", &width);
 
-    /* Calculating the perimeter */
-    perimeter = 2 * (height + width);
+  /* Calculating the perimeter */
+  perimeter = 2 * (height + width);
 
-    /* Printing the perimeter*/
-    printf("The Perimeter of the Rectangle is: %f\n", perimeter); //using %f because of floating point value
+  /* Printing the perimeter*/
+  printf("The Perimeter of the Rectangle is: %f\n", perimeter); /* using '%f' because of floating-point value */
 
-    return (0); //Retunrning 0 means the program ran successfully
+  return (0); /* Returning 0 means telling the machine that the program ran successfully */
 }
-
-
-

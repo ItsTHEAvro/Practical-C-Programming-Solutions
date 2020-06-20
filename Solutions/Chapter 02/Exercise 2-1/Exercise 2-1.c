@@ -5,11 +5,12 @@
   GitHub Repo: https://github.com/ItsTHEAvro/Practical-C-Programming-Solutions
 */
 
-#include <stdio.h> //Including header file for standard I/O
+#include <stdio.h> /* For standard input/output operations */
 
 int main()
 {
-    /* Printing "Hello World" */
-    printf("Hello World\n"); // "\n" to move the cursor to the next line
-    return (0); //Retunrning 0 means the program ran successfully
+  /* Printing "Hello World" */
+  printf("Hello World\n"); /* "\n" to move the cursor to the next line */
+
+  return (0); /* Returning 0 means telling the machine that the program ran successfully */
 }

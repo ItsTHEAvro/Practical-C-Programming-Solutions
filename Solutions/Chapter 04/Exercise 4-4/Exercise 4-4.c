@@ -5,19 +5,19 @@
   GitHub Repo: https://github.com/ItsTHEAvro/Practical-C-Programming-Solutions
 */
 
-#include <stdio.h> //Including header file for standard I/O
+#include <stdio.h> /* For standard input/output operations */
 
 int main()
 {
-    /* Printing HELLO */
-    /* Height Of 7 Characters And Width Of 5 Characters */
-	printf("*   * ***** *     *      *** \n");
-	printf("*   * *     *     *     *   *\n");
-	printf("*   * *     *     *     *   *\n");
-	printf("***** ***** *     *     *   *\n");
-	printf("*   * *     *     *     *   *\n");
-	printf("*   * *     *     *     *   *\n");
-	printf("*   * ***** ***** *****  *** \n");
+  /* Printing HELLO */
+  /* Height Of 7 Characters And Width Of 5 Characters */
+  printf("*   * ***** *     *      *** \n");
+  printf("*   * *     *     *     *   *\n");
+  printf("*   * *     *     *     *   *\n");
+  printf("***** ***** *     *     *   *\n");
+  printf("*   * *     *     *     *   *\n");
+  printf("*   * *     *     *     *   *\n");
+  printf("*   * ***** ***** *****  *** \n");
 
-    return (0); //Retunrning 0 means the program ran successfully
+  return (0); /* Returning 0 means telling the machine that the program ran successfully */
 }

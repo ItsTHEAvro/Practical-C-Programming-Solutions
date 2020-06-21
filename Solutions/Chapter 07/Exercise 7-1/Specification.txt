@@ -1,0 +1,45 @@
+Unit Converter: A Converter to Convert English Units to Metric
+
+June 21, 2020
+
+Jyotirmoy Avro
+
+Warning: This document is a preliminary specification.
+Any resemblance to any software living or dead is purely coincidental.
+
+Unit converter is a program that converts the following English units to metric.
+---------------------------------------------------------
+| English |  Abbreviation  | Metric Unit | Abbreviation |
+|  Unit   | (English Unit) |             | (Metric Unit)|
+|---------+----------------+-------------+--------------|
+|  Pound  |       lb       |   Kilogram  |      kg      |
+|---------+----------------+-------------+--------------|
+|  Gallon |      gal       |    Litre    |       l      |
+|---------+----------------+-------------+--------------|
+|   Mile  |       mi       |  Kilometre  |      km      |
+|---------+----------------+-------------+--------------|
+|   Yard  |       yd       |    Metre    |       m      |
+|---------+----------------+-------------+--------------|
+|   Foot  |       ft       |  Centimetre |      cm      |
+|---------+----------------+-------------+--------------|
+|   Inch  |       in       |  Centimetre |      cm      |
+---------------------------------------------------------
+
+When the program is run, it will list the English units abbreviations. 
+Then it will ask the user to input a number and the abbreviation of an English unit.
+The converted value will be calculated and displayed.
+
+For example (user input is between #Octothorp#):
+
+#UnitConverter#
+Enter a number and an abbreviation from the following list:
+lb  (Pound)
+gal (Gallon)
+mi  (Mile)
+yd  (Yard)
+ft  (Foot)
+in  (Inch)
+
+: #10 lb#
+
+10 lb = 4.53592 kg

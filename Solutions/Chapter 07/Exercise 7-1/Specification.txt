@@ -32,6 +32,7 @@ The converted value will be calculated and displayed.
 For example (user input is between #Octothorp#):
 
 #UnitConverter#
+
 Enter a number and an abbreviation from the following list:
 lb  (Pound)
 gal (Gallon)
@@ -39,7 +40,22 @@ mi  (Mile)
 yd  (Yard)
 ft  (Foot)
 in  (Inch)
+(Enter nothing to exit)
 
 : #10 lb#
 
 10 lb = 4.53592 kg
+
+Enter a number and an abbreviation from the following list:
+lb  (Pound)
+gal (Gallon)
+mi  (Mile)
+yd  (Yard)
+ft  (Foot)
+in  (Inch)
+(Enter nothing to exit)
+
+: ##
+
+Exiting Program...
+

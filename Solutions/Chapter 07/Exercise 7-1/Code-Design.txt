@@ -1,4 +1,6 @@
-Prompt the user for input 
-Read a number and abbreviation of an English unit
-Convert to metric
-Display the result
+Start-Loop
+    Prompt the user for input 
+    Read a number and abbreviation of an English unit
+    Convert to metric
+    Display the result
+End-loop
